@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/is-it-coral-safe/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/is-it-coral-safe/static/js/main.404956b8.chunk.js",
+    "main.js.map": "/is-it-coral-safe/static/js/main.404956b8.chunk.js.map",
+    "runtime-main.js": "/is-it-coral-safe/static/js/runtime-main.7008147e.js",
+    "runtime-main.js.map": "/is-it-coral-safe/static/js/runtime-main.7008147e.js.map",
+    "static/js/2.d884844c.chunk.js": "/is-it-coral-safe/static/js/2.d884844c.chunk.js",
+    "static/js/2.d884844c.chunk.js.map": "/is-it-coral-safe/static/js/2.d884844c.chunk.js.map",
+    "static/js/3.c15056f9.chunk.js": "/is-it-coral-safe/static/js/3.c15056f9.chunk.js",
+    "static/js/3.c15056f9.chunk.js.map": "/is-it-coral-safe/static/js/3.c15056f9.chunk.js.map",
+    "index.html": "/is-it-coral-safe/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/is-it-coral-safe/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d884844c.chunk.js.LICENSE.txt": "/is-it-coral-safe/static/js/2.d884844c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/is-it-coral-safe/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7008147e.js",
+    "static/js/2.d884844c.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.404956b8.chunk.js"
+  ]
+}
