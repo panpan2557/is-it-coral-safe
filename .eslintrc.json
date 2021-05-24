@@ -17,14 +17,16 @@
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "jest"
     ],
     "rules": {
         "semi": ["warn", "always"],
         "quotes": ["warn", "single"],
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
-        "indent": ["error", 4]
+        "indent": ["error", 4],
+        "no-unused-vars": ["warn"]
     },
     "overrides": [
         {
