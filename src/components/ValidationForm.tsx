@@ -1,15 +1,10 @@
 import React, { ChangeEvent, FormEvent, useState } from 'react';
+import { validate } from '../Utils/Validator';
 
 const ValidationForm = () => {
     const [text, setText] = useState<string>('');
     const onTextChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
         setText(event.target.value);
-    };
-
-    const validate = (text: string) => {
-        const delims: string = '/;/';
-        const x = text.split(delims);
-        console.log(x);
     };
 
     const handleSubmit = (e: FormEvent) => {
