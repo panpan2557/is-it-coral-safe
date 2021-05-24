@@ -28,19 +28,33 @@ const microplastic: Substance = {
         'styrene copolymer',
         'tetrafluoroethylene',
         'vinyl acetate copolymer',
-        'vp/va copolymer'
+        'vp/va copolymer',
     ],
-    urls: ['https://www.beatthemicrobead.org/guide-to-microplastics/']
+    urls: ['https://www.beatthemicrobead.org/guide-to-microplastics/'],
+};
+
+const oxybenzone: Substance = {
+    key: 'oxybenzone',
+    name: 'Oxybenzone',
+    description: '',
+    alias: [
+        'oxybenzone',
+        'benzophenone-3',
+        '2-hydroxy-4-methoxybenzophenone',
+        '(2-Hydroxy-4-methoxyphenyl)-',
+        'phenylmethanone',
+    ],
+    urls: [''],
 };
 
 export const HelListGroup: SubstanceGroup = {
     name: 'HEL List',
     description:
         'Harmful substances to environment (ex. coral and sea creatures)',
-    substances: [microplastic]
+    substances: [microplastic, oxybenzone],
 };
 
-// Any form of microplastic sphere or beads.
+// [DONE] Any form of microplastic sphere or beads.
 // Any nanoparticles like zinc oxide or titanium dioxide.
 // Oxybenzone
 // Octinoxate
