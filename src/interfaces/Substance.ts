@@ -1,6 +1,12 @@
-export interface MatchSubstance {
+export class MatchSubstance {
     substance: Substance;
-    matchedName: string[];
+    matchedName: string[] = [];
+    constructor(substance: Substance) {
+        this.substance = substance;
+    }
+    addMatchedName(name: string) {
+        this.matchedName = this.matchedName.concat(name);
+    }
 }
 
 export interface Substance {
