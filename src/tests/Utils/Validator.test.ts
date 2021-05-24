@@ -1,0 +1,5 @@
+export { };
+
+describe('', () => {
+    const testText = 'Water; dimethicone; zinc oxide; ethylhexyl methoxycinnamate; cyclopentasiloxane; talc; polymethyl methacrylate; alcohol; diisopropyl sebacate; isododecane; octocrylene; PEG/PPG-9/2 dimethyl ether; zea mays (corn) starch; ethylhexyl salicylate; diethylamino hydroxybenzoyl hexyl benzoate; titanium dioxide; PEG-9 polydimethylsiloxyethyl dimethicone; glycerin; isopropyl myristate; sucrose tetrastearate triacetate; silica; polysilicone-15; trimethylsiloxysilicate; bis-ethylhexyloxyphenol methoxyphenyl triazine; sodium chloride; PEG/PPG-14/7 dimethyl ether; dipotassium glycyrrhizate; camellia sinensis extract; potentilla erecta root extract; sodium acetylated hyaluronate; soluble collagen; PPG-17; dextrin palmitate; isostearic acid; triethoxycaprylylsilane; disteardimonium hectorite; aluminum hydroxide; stearic acid; PEG-6; BHT; tocopherol; trisodium EDTA; butylene glycol; vinyl dimethicone/methicone silsesquioxane crosspolymer; sodium metabisulfite; distearyldimonium chloride; leontopodium alpinum extract; phenoxyethanol; fragrance.';
+});
