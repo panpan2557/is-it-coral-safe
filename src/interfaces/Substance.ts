@@ -1,10 +1,11 @@
 export class MatchSubstance {
     substance: Substance;
     matchedName: string[] = [];
-    constructor(substance: Substance) {
+    constructor (substance: Substance) {
         this.substance = substance;
     }
-    addMatchedName(name: string) {
+
+    addMatchedName (name: string) {
         this.matchedName = this.matchedName.concat(name);
     }
 }
