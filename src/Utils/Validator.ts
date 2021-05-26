@@ -13,5 +13,5 @@ export const validate = (text: string): MatchSubstance[] => {
             }
         });
         return matchedSubstance;
-    });
+    }).filter(matchSubstance => matchSubstance.matchedName.length > 0);
 };
